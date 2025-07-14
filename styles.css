@@ -459,7 +459,7 @@ main {
 /* --- about-card (sin efecto hover) --- */
 .about-card {
     background-color: var(--card-bg);
-    padding: 18px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex: 0 0 320px; /* Establece un ancho fijo y evita que se encoja */
@@ -938,6 +938,7 @@ main {
 
     .about-cards {
         flex-direction: column;
+        padding: 18px;
         align-items: center;
         overflow-x: hidden; /* No necesitamos scroll horizontal en mobile si están en columna */
         gap: 20px;
